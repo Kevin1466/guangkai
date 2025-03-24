@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>算法工程师简历 - 渐变风格1</title>
+    <style>
+        /* 全局样式 */
+        body {
+            font-family: 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+            color: #333;
+            line-height: 1.5;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+
+        .container {
+            width: 210mm;
+            min-height: 297mm;
+            margin: 0 auto;
+            background: linear-gradient(to bottom right, #ffffff, #f0f8ff);
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            padding: 25mm 20mm;
+            box-sizing: border-box;
+        }
+
+        /* Header styles */
+        .header {
+            position: relative;
+            margin-bottom: 25px;
+            padding-bottom: 15px;
+        }
+
+        .header::after {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            height: 3px;
+            width: 100%;
+            background: linear-gradient(to right, #8eb7f4, #88b7e3, #c5e1ff);
+        }
+
+        .name {
+            font-size: 32px;
+            font-weight: 700;
+            color: #2c3e50;
+            margin: 0;
+            letter-spacing: 1px;
+        }
+
+        .title {
+            font-size: 18px;
+            color: #4a6fa5;
+            margin: 5px 0 15px;
+            font-weight: 500;
+        }
+
+        .contact-info {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            font-size: 14px;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+        }
+
+        /* Section styles */
+        .section {
+            margin-bottom: 25px;
+            position: relative;
+        }
+
+        .section-title {
+            font-size: 18px;
+            font-weight: 600;
+            color: #2c3e50;
+            padding-left: 12px;
+            margin-bottom: 15px;
+            position: relative;
+        }
+
+        .section-title::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 0;
+            height: 100%;
+            width: 3px;
+            background: linear-gradient(to bottom, #8eb7f4, #88b7e3);
+            border-radius: 2px;
+        }
+
+        /* Experience item styles */
+        .experience-item {
+            margin-bottom: 20px;
+            padding-left: 15px;
+            border-left: 1px solid #e3eef9;
+        }
+
+        .experience-header {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .company-title {
+            font-weight: 600;
+            font-size: 16px;
+            color: #2c3e50;
+        }
+
+        .date {
+            color: #7f8c8d;
+            font-size: 14px;
+            background: linear-gradient(to right, #f0f6fd, #e5f0fa);
+            padding: 2px 8px;
+            border-radius: 4px;
+        }
+
+        .position {
+            font-weight: 500;
+            color: #4a6fa5;
+            font-size: 15px;
+            margin: 3px 0;
+        }
+
+        .description {
+            margin-top: 5px;
+            font-size: 14px;
+        }
+
+        /* Skills styles */
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .skill-tag {
+            background: linear-gradient(to right, #e5f0fa, #d0e6f7);
+            color: #4a6fa5;
+            border-radius: 15px;
+            padding: 5px 12px;
+            font-size: 14px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+        }
+
+        /* Project styles */
+        .project {
+            margin-bottom: 20px;
+            padding: 12px 15px;
+            border-radius: 5px;
+            background: linear-gradient(to right, #f8fbff, #f1f7fd);
+        }
+
+        .project-name {
+            font-weight: 600;
+            font-size: 16px;
+            color: #2c3e50;
+        }
+
+        /* Education styles */
+        .education-item {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 15px;
+            padding: 10px;
+            border-radius: 5px;
+            background: linear-gradient(to right, #f8fbff, #f1f7fd);
+        }
+
+        .university {
+            font-weight: 600;
+            font-size: 16px;
+            color: #2c3e50;
+        }
+
+        .degree {
+            color: #4a6fa5;
+            font-size: 15px;
+            margin: 3px 0;
+        }
+
+        /* List styles */
+        ul {
+            margin: 0;
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 5px;
+        }
+
+        /* Certificates styles */
+        .certificates {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+            gap: 10px;
+        }
+
+        .certificate {
+            background: linear-gradient(to right, #f0f6fd, #e5f0fa);
+            padding: 10px;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+    </style>
+
+</head><body> <div class="container"> <!-- Header Information --> <header class="header"> <h1 class="name">Guangkai Ren</h1> <h2 class="title">Algorithm Engineer</h2> <div class="contact-info"> <div class="contact-item">📧 Email: kevin.r5009@gmail.com</div> <div class="contact-item">📱 Phone: +86 184 0124 5270</div> <div class="contact-item">📍 Location: Beijing</div> <!-- <div class="contact-item">🔗 LinkedIn: linkedin.com/in/yourname</div> <div class="contact-item">💻 GitHub: github.com/yourusername</div> --> </div> </header>
+    
+    <!-- Personal Profile -->
+    <section class="section">
+        <h3 class="section-title">Personal Profile</h3>
+        <p>With eight years of experience in algorithm research and engineering, I specialize in the application and
+            optimization of model algorithms. I have an in-depth understanding of various large models and classic
+            small
+            models, and can precisely analyze their strengths and limitations. I can efficiently optimize and implement
+            them
+            based on business needs, driving the innovative application of algorithms in practical scenarios.</p>
+    </section>
+
+    <!-- Professional Skills -->
+    <section class="section">
+        <h3 class="section-title">Professional Skills</h3>
+        <div class="skills">
+            <div class="skill-tag">Python</div>
+            <div class="skill-tag">Java</div>
+            <div class="skill-tag">JS/TS</div>
+            <div class="skill-tag">PyTorch</div>
+            <div class="skill-tag">LLM/VLM</div>
+            <div class="skill-tag">Multimodal Understanding and Generation</div>
+            <div class="skill-tag">Large Model Pre-training</div>
+            <div class="skill-tag">Agent</div>
+            <div class="skill-tag">Information Retrieval/RAG</div>
+            <div class="skill-tag">Efficient Fine-tuning PEFT</div>
+            <div class="skill-tag">Contrastive Learning</div>
+            <div class="skill-tag">Reinforcement Learning</div>
+            <div class="skill-tag">Distillation/Quantization</div>
+            <div class="skill-tag">Anomaly Detection</div>
+            <div class="skill-tag">Model Engineering Deployment</div>
+            <div class="skill-tag">Distributed/Microservices</div>
+            <div class="skill-tag">DevOps/MLOps</div>
+        </div>
+    </section>
+
+    <!-- Work Experience -->
+    <section class="section">
+        <h3 class="section-title">Work Experience</h3>
+
+        <div class="experience-item">
+            <div class="experience-header">
+                <div class="company-title">Beijing Block Imagine Digital Technology Co., Ltd.</div>
+                <div class="date">June 2023 - Present</div>
+            </div>
+            <div class="position">Senior Algorithm Engineer</div>
+            <div class="description">
+                <ul>
+                    <li>Responsible for the development of AI agents, large model applications, and intelligent search
+                        systems, driving the implementation of AI technology in blockchain, cryptocurrency trading, and
+                        information retrieval.</li>
+                    <li>Led the architecture design and technical implementation of multiple AI projects, including
+                        LLM-based agents, smart contract interactions, and automated trading systems.</li>
+                    <li>Participated in the development of blockchain ecosystems, building AI-driven DeFi interactions,
+                        cross-chain asset management, and automated smart contract execution solutions.</li>
+                    <li>Responsible for the design and optimization of AI search engines, enhancing the parsing
+                        capabilities
+                        for complex queries and implementing multi-agent collaborative information retrieval systems.
+                    </li>
+                    <li>In the field of AI-based quantitative trading decisions, combined LLM and reinforcement learning
+                        to
+                        optimize trading strategies and improve the accuracy of market analysis.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="experience-item">
+            <div class="experience-header">
+                <div class="company-title">China National Knowledge Infrastructure Technology Co., Ltd.</div>
+                <div class="date">November 2016 - June 2023</div>
+            </div>
+            <div class="position">Research and Development Engineer & Senior Project Manager</div>
+            <div class="description">
+                <ul>
+                    <li>Responsible for the design and development of search engines and recommendation systems,
+                        including
+                        full-text retrieval, multi-route recall, and optimization of personalized recommendation
+                        algorithms.
+                    </li>
+                    <li>Led the development of a text correction system, combining NLP technology with multimodal
+                        feature
+                        fusion to enhance correction capabilities in complex scenarios.</li>
+                    <li>Designed and implemented an AI-enhanced retrieval (RAG) system, optimizing vector retrieval and
+                        semantic understanding capabilities to improve information acquisition efficiency.</li>
+                    <li>Responsible for the development of industrial computer vision systems, focusing on zero-shot
+                        learning solutions for anomaly detection and defect identification.</li>
+                    <li>Participated in AI model training and optimization, covering the application of large models
+                        such as
+                        BERT, Transformer, and CLIP in multiple fields.</li>
+                    <li>Constructed big data processing platforms and AI infrastructure to support offline batch
+                        processing
+                        and real-time stream processing of massive data.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="experience-item">
+            <div class="experience-header">
+                <div class="company-title">Beijing Gome Online E-Commerce Co., Ltd.</div>
+                <div class="date">December 2014 - August 2016</div>
+            </div>
+            <div class="position">Research and Development Engineer</div>
+            <div class="description">
+                <ul>
+                    <li>Responsible for building a product search engine based on Elasticsearch, optimizing index
+                        structures
+                        and tokenization strategies to significantly improve search response speed and result accuracy.
+                    </li>
+                    <li>Led the development of a personalized recommendation system, using collaborative filtering and
+                        matrix decomposition algorithms to precisely match users with products, effectively increasing
+                        conversion rates.</li>
+                    <li>Participated in the construction of a distributed computing architecture, utilizing Hadoop and
+                        Spark
+                        for efficient data processing, and combining Redis to accelerate popular product
+                        recommendations,
+                        significantly improving system performance and efficiency.</li>
+                    <li>Responsible for introducing Kafka to build a real-time data stream processing framework,
+                        dynamically
+                        adjusting recommendation results based on user real-time behavior to enhance user experience.
+                    </li>
+                    <li>Led the development of machine learning models, using scikit-learn and MLlib to implement
+                        logistic
+                        regression and random forest recommendation models, significantly improving the generalization
+                        and
+                        stability of the recommendation system.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="experience-item">
+            <div class="experience-header">
+                <div class="company-title">Beijing Dawn Infinite Technology Co., Ltd.</div>
+                <div class="date">September 2014 - December 2014</div>
+            </div>
+            <div class="position">Research and Development Engineer</div>
+            <div class="description">
+                <ul>
+                    <li>Responsible for implementing skin beautification functions based on skin color detection and
+                        bilateral filtering algorithms, significantly improving the aesthetics of portrait photos by
+                        adjusting the hue of skin areas and smoothing skin texture.</li>
+                    <li>Led the development of face-slimming and big-eye effects, using liquidation algorithms combined
+                        with
+                        dlib to extract facial feature points and precisely adjust facial proportions to achieve more
+                        desirable selfie results for users.</li>
+                    <li>Participated in the implementation of filter functions, using convolutional neural networks
+                        (CNN)
+                        and neural style transfer algorithms to provide users with diverse and artistic photo style
+                        conversion effects.</li>
+                    <li>Led the design and implementation of photo restoration functions, using deep learning algorithms
+                        to
+                        enhance the quality of low-quality photos, effectively improving issues such as blurriness and
+                        noise, and enhancing the overall visual effect of the photos.</li>
+                </ul>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Project Experience -->
+    <section class="section">
+        <h3 class="section-title">Project Experience</h3>
+
+        <div class="project">
+            <div class="experience-header">
+                <div class="project-name">Avalanche Agent MCP Framework</div>
+                <div class="date">January 2025 - Present</div>
+            </div>
+            <div class="description">
+                Project Overview: Responsible for the development and maintenance of the Avalanche Agent MCP framework
+                on
+                the Avalanche blockchain network. This framework enables AI agents to automate various on-chain
+                operations,
+                including token trading, NFT management, DeFi interactions, cross-chain bridging, etc. The project aims
+                to
+                simplify the interaction between developers and the Avalanche ecosystem and promote the application of
+                AI
+                agents in the blockchain field.<p>
+                <ul>
+                    <li>Developed the Avalanche Agent MCP framework, providing developers with a convenient tool for
+                        interacting with Avalanche smart contracts.</li>
+                    <li>Implemented the automation of dozens of on-chain operations on Avalanche, significantly
+                        improving
+                        development efficiency.</li>
+                    <li>Integrated LangChain and Vercel AI SDK to build AI agents that support natural language
+                        interaction
+                        and autonomous decision-making.</li>
+                    <li>Integrated with multiple mainstream Avalanche DeFi protocols to enrich the functionality of the
+                        toolkit.</li>
+                    <li>Integrated with Wormhole and deBridge to establish asset transfer channels between Avalanche and
+                        other chains.</li>
+                    <li>Developed a multi-agent system based on LangGraph, enhancing the toolkit's ability to handle
+                        complex
+                        tasks.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="project">
+            <div class="experience-header">
+                <div class="project-name">LLM-based Cryptocurrency Trading Agent CryptoTradeAgent</div>
+                <div class="date">June 2024 - December 2024</div>
+            </div>
+            <div class="description">
+                Project Overview: Responsible for the design and implementation of a cryptocurrency trading agent,
+                CryptoTradeAgent, based on large language models (LLMs). This agent can comprehensively analyze on-chain
+                data (such as transaction records and market data) and off-chain information (such as financial news) to
+                formulate trading strategies. By introducing a reflection mechanism, the agent can review past trading
+                performance and optimize future decisions accordingly, achieving higher returns in the cryptocurrency
+                market.<p>
+                <ul>
+                    <li>Designed and implemented the overall framework of CryptoTradeAgent, including data collection,
+                        market analysis, news analysis, trading decision, and reflection modules.</li>
+                    <li>Developed the data collection module, responsible for obtaining on-chain data from platforms
+                        such as
+                        CoinMarketCap and Dune Database, as well as off-chain information from cryptocurrency financial
+                        news
+                        sources.</li>
+                    <li>Utilized LLMs to implement market analysis and news analysis agents, which are responsible for
+                        analyzing market trends and interpreting the impact of news events on the market, respectively.
+                    </li>
+                    <li>Designed the trading agent's decision logic to generate buy, sell, or hold trading
+                        recommendations
+                        based on the results of market and news analysis, and control trading volumes.</li>
+                    <li>Introduced a reflection agent based on reinforcement learning, enabling the agent to review past
+                        trading records, analyze successful and unsuccessful experiences, and provide feedback for
+                        future
+                        trading decisions.</li>
+                    <li>Evaluated CryptoTradeAgent using deepseek-r1 and GPT-o1, and compared its performance with
+                        traditional trading strategies and time-series models.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="project">
+            <div class="experience-header">
+                <div class="project-name">AI Search Engine Combining Parallel Query of Multiple Sub-problems and
+                    Multi-level
+                    Retrieval Strategy</div>
+                <div class="date">July 2023 - June 2024</div>
+            </div>
+            <div class="description">
+                Project Overview: Led the development of Thought-like AISearch, an AI-based multi-agent Web information
+                retrieval and integration system. The system mimics the human thinking process, with two core modules -
+                planning and searching - working together to achieve in-depth parsing and efficient information
+                retrieval
+                for complex user queries.<p>
+                <ul>
+                    <li>Developed the search planning agent module, which is responsible for decomposing complex user
+                        queries into multiple atomic sub-problems and constructing a dynamic reasoning graph to guide
+                        the
+                        information retrieval process.</li>
+                    <li>Developed the search execution agent module, which is responsible for executing the sub-problems
+                        assigned by the planning agent and extracting valuable information from a vast number of web
+                        pages
+                        using a hierarchical retrieval strategy.</li>
+                    <li>Introduced a multi-agent collaboration mechanism to enable information exchange and task
+                        allocation
+                        between planning and search agents, enhancing the overall efficiency and accuracy of the system.
+                    </li>
+                    <li>Designed and implemented LLM context management strategies to effectively handle long text
+                        inputs
+                        and multi-turn dialogues, avoiding information loss and interference.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="project">
+            <div class="experience-header">
+                <div class="project-name">Zero-shot Industrial Product Anomaly Detection System Based on Multimodal
+                    Large
+                    Model OpenCLIP</div>
+                <div class="date">October 2022 - June 2023</div>
+            </div>
+            <div class="description">
+                Project Overview: This project constructed a zero-shot anomaly detection system for industrial defect
+                detection. Based on the multimodal large model CLIP method, we optimized CLIP's generalization ability
+                in
+                anomaly detection tasks to achieve precise anomaly detection without target domain training data.<p>
+                <ul>
+                    <li>Designed and implemented the overall architecture of the OpenCLIP anomaly detection system,
+                        including object-agnostic text prompt learning and global + local anomaly feature optimization
+                        mechanisms.</li>
+                    <li>Developed an object-agnostic text prompt learning mechanism to optimize CLIP's recognition
+                        ability
+                        from a generalization perspective, focusing on abnormal regions rather than foreground object
+                        categories.</li>
+                    <li>Implemented a global + local anomaly learning (Glocal + Local) optimization mechanism, combining
+                        global features and fine-grained anomaly features to improve detection accuracy in multiple
+                        scenarios.</li>
+                    <li>Optimized the text and visual spaces of CLIP using learnable text embeddings (Prompt Tuning) to
+                        enhance local anomaly recognition capabilities.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="project">
+            <div class="experience-header">
+                <div class="project-name">Literature-enhanced Retrieval System Based on Multi-route Recall and
+                    Learning-to-Rank</div>
+                <div class="date">February 2023 - June 2023</div>
+            </div>
+            <div class="description">
+                Project Overview: Responsible for the development of an AI-based enhanced retrieval system aimed at
+                improving the precision and efficiency of information retrieval for academic literature and corporate
+                knowledge bases, meeting users' complex and diverse query needs.<p>
+                <ul>
+                    <li>Participated in the design and development of the AI-enhanced retrieval system, including system
+                        architecture design, functional module development, and performance optimization.</li>
+                    <li>Designed and implemented a multi-route recall retrieval module that combines the advantages of
+                        traditional retrieval and vector retrieval to enhance retrieval accuracy and comprehensiveness.
+                    </li>
+                    <li>Developed a feature that allows users to quickly access specific paragraphs of the original
+                        literature, enabling users to bypass the literature level and directly locate to the original
+                        text
+                        fragments, improving the efficiency of literature research.</li>
+                    <li>Designed and implemented a flexible retrieval input function that supports natural language
+                        input
+                        and voice input, with capabilities for intelligent intent recognition, error correction, and
+                        standardized retrieval guidance.</li>
+                    <li>Participated in the data processing work of the system, including literature data cleaning,
+                        vectorization processing, and the construction of a comprehensive vector data repository.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="project">
+            <div class="experience-header">
+                <div class="project-name">Development and Optimization of Multimodal Fusion-based Text Correction System
+                    MMSpellCheck</div>
+                <div class="date">February 2022 - December 2023</div>
+            </div>
+            <div class="description">
+                Project Overview: This project突破 traditional text correction methods' limitations in complex scenarios
+                by
+                leveraging the complementary advantages of multimodal information to achieve more accurate and natural
+                text
+                correction.<p>
+                <ul>
+                    <li>Participated in the design and development of the MultiModalSpellCheck system, including
+                        multimodal
+                        feature extraction, fusion strategy design, and correction model training.</li>
+                    <li>Responsible for the development of the multimodal feature fusion module, which effectively
+                        integrates text, speech, and visual information to enhance the model's ability to recognize
+                        complex
+                        errors.</li>
+                    <li>Participated in the training and optimization of the correction model, including loss function
+                        design, hyperparameter tuning, and model performance evaluation.</li>
+                    <li>Designed and implemented a rule-based post-processing module to refine model outputs, further
+                        improving the accuracy of corrections.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="project">
+            <div class="experience-header">
+                <div class="project-name">End-to-End Framework for Text Correction Based on BERT and Transformer</div>
+                <div class="date">November 2016 - December 2020</div>
+            </div>
+            <div class="description">
+                Project Overview: Designed an end-to-end framework that simultaneously utilizes the visual and phonetic
+                features of misspelled characters, minimizing their misleading impact on context to enhance the recall
+                and
+                accuracy of corrections.<p>
+                <ul>
+                    <li>Utilized a lightweight Transformer to detect the positions of misspelled characters, and
+                        employed
+                        BERT in the corrector to capture the visual and phonetic features of each character in the
+                        original
+                        sentence, with the corrector directly using the original sentence as input to retain the visual
+                        and
+                        phonetic features of misspelled characters.</li>
+                    <li>Adopted a late fusion strategy, combining the hidden states of the corrector with those of the
+                        detector, aiming to eliminate the misleading impact of misspelled characters.</li>
+                    <li>Implemented end-to-end joint training to synchronize the execution of detection and correction
+                        tasks, enabling the framework to perform both correction and detection tasks simultaneously and
+                        optimize performance through joint training.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="project">
+            <div class="experience-header">
+                <div class="project-name">Optimization of CNKI Search and Recommendation System</div>
+                <div class="date">December 2014 - August 2016</div>
+            </div>
+            <div class="description">
+                Project Overview: The project utilized Elasticsearch as the full-text search engine and combined Spark
+                with
+                Flink for large-scale data processing. It also introduced deep learning models (such as DNN,
+                Transformer)
+                and knowledge graph construction techniques to enhance the system's semantic understanding and
+                cross-domain
+                association recommendation capabilities for academic resources.<p>
+                <ul>
+                    <li>Participated in the construction of a full-text search service based on the Elasticsearch/ELK
+                        Stack,
+                        supporting complex queries and real-time aggregation analysis, and explored the application of
+                        vector search technologies (FAISS, Milvus) in recommendation scenarios.</li>
+                    <li>Led the development and application of deep learning recommendation models, from early
+                        Wide&Deep,
+                        DeepFM to later DIN, DIEN, sequential recommendation (BERT4Rec), and multi-task learning (MMOE),
+                        effectively improving recommendation relevance and user conversion rates.</li>
+                    <li>Constructed an offline batch processing platform based on Hadoop, Spark, and Flink, and a stream
+                        processing system using Spark Streaming/Flink/Kafka Streams to achieve real-time data
+                        collection,
+                        feature extraction, and computation for massive data.</li>
+                    <li>Led the implementation of online learning (FTRL, online update framework) and real-time
+                        recommendation services, building a multi-level recommendation architecture (recall → coarse
+                        ranking
+                        → fine ranking → reranking) using the Lambda architecture, microservices, and containerized
+                        deployment (Docker, Kubernetes).</li>
+                    <li>Established a real-time monitoring system centered on Prometheus and Grafana, continuously
+                        tracking
+                        model performance metrics (AUC, NDCG, Precision, Recall, CTR, CVR, etc.).</li>
+                    <li>Driven the construction of an experimental platform (A/B testing, TensorBoard, MLflow) to
+                        automate
+                        model iteration and online debugging management.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="project">
+            <div class="experience-header">
+                <div class="project-name">Search and Recommendation System for Gome E-commerce Platform</div>
+                <div class="date">December 2014 - August 2016</div>
+            </div>
+            <div class="description">
+                Project Overview: Responsible for the architecture design and optimization of an e-commerce platform's
+                search and recommendation system, enhancing user search experience and personalized recommendation
+                capabilities. The project utilized Elasticsearch based on Lucene as the search engine and combined the
+                Hadoop ecosystem for large-scale data processing, while introducing collaborative filtering and matrix
+                decomposition recommendation algorithms to improve the accuracy of product recommendations.<p>
+                <ul>
+                    <li>Optimized the search engine by constructing a product search engine based on Elasticsearch,
+                        optimizing index structures, tokenization strategies, and search recall to improve search query
+                        response speed.</li>
+                    <li>Constructed a recommendation system using collaborative filtering (CF) and matrix decomposition
+                        (MF)
+                        algorithms to build a personalized recommendation system, optimizing user-product matching and
+                        increasing conversion rates.</li>
+                    <li>Utilized Hadoop and Spark for data preprocessing and batch computing to enhance the efficiency
+                        of
+                        large-scale data processing, and combined Redis to accelerate recommendations for popular
+                        products.
+                    </li>
+                    <li>Introduced Kafka to build a real-time data stream processing framework, dynamically adjusting
+                        recommendation results based on user behavior (clicks, collections, purchases).</li>
+                    <li>Implemented recommendation models based on logistic regression and random forests using
+                        scikit-learn
+                        and MLlib to improve the generalization capability of the recommendation system.</li>
+                </ul>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Education Background -->
+    <section class="section">
+        <h3 class="section-title">Education Background</h3>
+
+        <div class="education-item">
+            <div>
+                <div class="university">Trine University (the U.S.)</div>
+                <div class="degree">Master in Information System</div>
+            </div>
+            <div class="date">May 2024 - May 2026</div>
+        </div>
+
+        <div class="education-item">
+            <div>
+                <div class="university">University of Science and Technology Beijing</div>
+                <div class="degree">Master of Software Engineering</div>
+            </div>
+            <div class="date">September 2020 - January 2023</div>
+        </div>
+
+        <div class="education-item">
+            <div>
+                <div class="university">Luoyang Normal University</div>
+                <div class="degree">Bachelor of Computer Science and Technology</div>
+            </div>
+            <div class="date">September 2009 - July 2013</div>
+        </div>
+
+    </section>
+
+    <!-- Certificates and Honors -->
+    <section class="section">
+        <h3 class="section-title">Certificates and Honors</h3>
+        <div class="certificates">
+            <div class="certificate">Intermediate Software Designer (National Qualification Examination)</div>
+            <div class="certificate">Senior Project Manager (National Qualification Examination)</div>
+            <div class="certificate">CET-6, Score: 467</div>
+            <div class="certificate">Outstanding Graduate (University Level), 2023</div>
+        </div>
+    </section>
+    </div>
